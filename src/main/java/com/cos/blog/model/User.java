@@ -31,6 +31,6 @@ public class User {
 	@ColumnDefault("'user'")
 	private String role; // Enum을 쓰는게 좋다. // admin, user, manager설정
 	
-	@CreationTimestamp // 시간이 자동 입력
+	@CreationTimestamp // 시간이 자동 입력 //////
 	private Timestamp createDate;
 }
